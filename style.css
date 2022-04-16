@@ -49,16 +49,20 @@ table {
 
 /* *** MY CODE *** */
 
-body {
-	margin: 0;
-	padding: 0;
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+#main {
+	height: 100%;
+	width: 100%;
+	background-color: purple;
 }
 
 #left {
     width: 35%;
     height: 100%;
-    box-sizing: border-box;
-    margin: 0;
     display: inline-block;
 }
 
@@ -66,4 +70,5 @@ body {
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
+	display: inline-block;
 }

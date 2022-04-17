@@ -61,7 +61,7 @@ html, body {
 }
 
 #left {
-    width: 35%;
+    width: 35vw;
     height: 100%;
     display: inline-block;
 }
@@ -74,6 +74,7 @@ html, body {
 
 .logo {
 	height: 150px;
+	width: 35vw;
 	position: fixed;
 	background-color: #000;
 	opacity: 0.5;
@@ -82,4 +83,7 @@ html, body {
 
 .logo span {
 	width: 100%;
+	color: #FFF;
+	margin: 25px 50px;
+	font-size: 5rem;
 }

@@ -76,14 +76,14 @@ html, body {
 	height: 150px;
 	width: 35vw;
 	position: fixed;
-	background-color: #000;
+	background-color: rgba(0, 0, 0, 0.5);
 	opacity: 0.5;
 	top: 35%;
+	color: #fff;
 }
 
 .logo span {
 	width: 100%;
-	color: #FFF;
 	margin: 25px 50px;
 	font-size: 5rem;
 }

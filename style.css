@@ -75,10 +75,12 @@ html, body {
 
 .logo {
 	height: 150px;
-	width: auto;
-	display: block;
 	position: fixed;
 	background-color: #000;
 	opacity: 0.5;
 	top: 35%;
+}
+
+.logo span {
+	width: 100%;
 }

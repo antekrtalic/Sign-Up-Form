@@ -58,12 +58,19 @@ html, body {
 	height: 100%;
 	width: 100%;
 	background-color: purple;
+	display: flex;
 }
 
 #left {
     width: 35vw;
     height: 100%;
     display: inline-block;
+}
+
+#right {
+	height: 100%;
+	flex-grow: 1;
+	background-color: #fff;
 }
 
 .bali {
@@ -80,10 +87,11 @@ html, body {
 	opacity: 0.5;
 	top: 35%;
 	color: #fff;
+	text-align: center;
 }
 
 .logo span {
 	width: 100%;
-	margin: 25px 50px;
 	font-size: 5rem;
+	opacity: 1;
 }

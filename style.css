@@ -114,12 +114,12 @@ span > a {
 
 .upper {
 	background-color: aqua;
-	height: 20vh;
+	height: 40vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1.6rem;
-	width: 450px;
+	width: 100%;
 	overflow-wrap: break-word;
 	text-align: left;
 	align-self: center;

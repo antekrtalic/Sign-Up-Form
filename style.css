@@ -64,7 +64,7 @@ html, body {
 }
 
 #left {
-    min-width: 35vw;
+    width: 35vw;
     height: 100%;
 	display: flex;
 	justify-content: center;
@@ -108,17 +108,21 @@ span > a {
 	background-color: rgb(255, 255, 255);
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 
 }
 
 .upper {
 	background-color: aqua;
-	height: 40vh;
+	height: 20vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 1.6rem;
-
+	width: 450px;
+	overflow-wrap: break-word;
+	text-align: left;
+	align-self: center;
 }
 
 

@@ -50,7 +50,6 @@ table {
 /* *** MY CODE *** */
 
 
-
 html, body {
 	height: 100%;
 	width: 100%;
@@ -113,18 +112,20 @@ span > a {
 }
 
 .upper {
-	background-color: aqua;
+	background-color: rgb(255, 255, 255);
 	height: 40vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 1.6rem;
-	width: 100%;
-	overflow-wrap: break-word;
-	text-align: left;
-	align-self: center;
+	max-width: 100%;
+	
 }
 
+/*  .upper-text {
+	font-size: 1.6rem;
+	overflow-wrap: break-word;
+	background-color: orange;
+	position: absolute;
+	bottom: 20px;
+	max-width: 95%;
+} */
 .middle {
 	background-color: red;
 	width: 100%;

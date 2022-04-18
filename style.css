@@ -80,10 +80,10 @@ html, body {
 	opacity: 0.5;
 	top: 35%;
 	color: #fff;
+	text-align: center;
 }
 
 .logo span {
 	width: 100%;
-	margin: 25px 50px;
 	font-size: 5rem;
 }

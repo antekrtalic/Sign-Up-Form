@@ -57,8 +57,8 @@ html, body {
 #main {
 	height: 100%;
 	width: 100%;
-	background-color: purple;
 	display: flex;
+	overflow: hidden;
 }
 
 #left {
@@ -84,14 +84,10 @@ html, body {
 	width: 35vw;
 	position: fixed;
 	background-color: rgba(0, 0, 0, 0.5);
-	opacity: 0.5;
 	top: 35%;
 	color: #fff;
-	text-align: center;
-}
-
-.logo span {
-	width: 100%;
-	font-size: 5rem;
-	opacity: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
 }

@@ -49,6 +49,8 @@ table {
 
 /* *** MY CODE *** */
 
+
+
 html, body {
 	height: 100%;
 	width: 100%;
@@ -66,12 +68,6 @@ html, body {
     height: 100%;
 	display: flex;
 	justify-content: center;
-}
-
-#right {
-	height: 100%;
-	flex-grow: 1;
-	background-color: rgb(230, 84, 115);
 }
 
 .bali {
@@ -96,7 +92,7 @@ html, body {
 span {
 	color: white;
 	position: absolute;
-	bottom: 0;
+	bottom: 0; 
 
 }
 
@@ -104,3 +100,16 @@ span > a {
 	text-decoration: none;
 	color: white;
 }
+
+
+#right {
+	height: 100%;
+	flex-grow: 1;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+

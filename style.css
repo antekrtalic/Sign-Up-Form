@@ -148,6 +148,26 @@ span > a {
 	height: 40vh;
 }
 
+.middle-inner {
+	height: auto;
+	width: 400px;
+	
+}
+
+.label-div {
+	margin-top: 10px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+input {
+	margin-top: 5px;
+}
+
+label {
+	display: block;
+}
+
 .bottom {
 	background-color: gold;
 	min-height: 200px;

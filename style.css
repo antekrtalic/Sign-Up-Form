@@ -125,8 +125,12 @@ span > a {
 }
 
 .upper > p {
-	font-family: 'Nunito', sans-serif;
+	
 	font-size: 1.25rem;
+}
+
+.upper > p, legend, label {
+	font-family: 'Nunito', sans-serif;
 }
 
 
@@ -139,7 +143,7 @@ span > a {
 	max-width: 95%;
 } */
 .middle {
-	background-color: red;
+	background-color: rgba(219, 212, 212, .2);
 	max-width: 100%;
 	height: 40vh;
 }

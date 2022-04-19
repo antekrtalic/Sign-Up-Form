@@ -154,6 +154,7 @@ fieldset {
 legend {
 	margin-left: 15px;
 	margin-top: 25px;
+	font-size: 1.14rem;
 }
 
 .middle-inner {
@@ -175,6 +176,10 @@ legend {
 input {
 	border-radius: 5px;
 	border: 1px solid #E5E7EB;
+}
+
+input:invalid {
+	border: 2px solid red;
 }
 
 label {

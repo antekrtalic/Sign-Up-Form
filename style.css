@@ -56,7 +56,7 @@ table {
 
 :root {
 	--color: #f24029;
-	--bg-color: rgba(255, 255, 255, 0.9);
+	--bg-color: rgba(56, 51, 51, 0.05);
 }
 
 
@@ -155,11 +155,11 @@ span > a {
 	bottom: 20px;
 	max-width: 95%;
 } */
-.middle {
-	background-color: rgba(219, 212, 212, .2);
+/* .middle {
+	background-color: var(--bg-color);
 	width: 100%;
 	height: 40vh;
-}
+} */
 
 form {
 	margin: 0;
@@ -194,7 +194,7 @@ legend {
 }
 
 .sub-btn {
-	background-color: rgba(219, 212, 212, .2);
+	background-color: var(--bg-color);
 	max-width: 60vw;
 }
 
@@ -203,12 +203,21 @@ button {
 	padding: 10px 40px;
 	font-weight: 700;
 	font-size: 1.2rem;
-	border: 2px solid ;
+	border: 2px solid var(--color);
+	border-radius: 4px;
+}
+
+button:hover {
+	cursor: pointer;
 }
 
 input {
 	border-radius: 5px;
 	border: 1px solid #E5E7EB;
+}
+
+input:active {
+	border: 2px solid red;
 }
 
 input:not(:blank):invalid {

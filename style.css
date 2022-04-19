@@ -55,10 +55,6 @@ html, body {
 	width: 100%;
 }
 
-body {
-	overflow: hidden;
-}
-
 #main {
 	height: 100%;
 	width: 100%;
@@ -144,28 +140,46 @@ span > a {
 } */
 .middle {
 	background-color: rgba(219, 212, 212, .2);
-	max-width: 100%;
+	width: 100%;
 	height: 40vh;
 }
 
+form {
+	height: 100%;
+}
+
+fieldset {
+	height: 100%;
+}
+legend {
+	margin-left: 15px;
+	margin-top: 25px;
+}
+
 .middle-inner {
-	height: auto;
+	height: 100%;
 	width: 400px;
-	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: space-around;
 }
 
 .label-div {
-	margin-top: 10px;
-	margin-left: 5px;
 	display: inline-block;
+	
+	
 }
 
 input {
-	margin-top: 5px;
+	border-radius: 5px;
+	border: 1px solid rgb(187, 186, 186);
 }
 
 label {
 	display: block;
+	font-size: .8rem;
 }
 
 .bottom {

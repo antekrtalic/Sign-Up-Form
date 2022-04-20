@@ -219,7 +219,7 @@ input {
 }
 
 input:valid {
-
+	border: 1px solid var(--valid-color);
 }
 
 input:focus {

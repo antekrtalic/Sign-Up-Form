@@ -121,7 +121,7 @@ span > a {
 
 
 #right {
-	width: 65vw;
+	width: 60vw;
 	background-color: rgb(255, 255, 255);
 	display: flex;
 	align-items: center;
@@ -236,9 +236,16 @@ label {
 }
 
 .bottom {
-	background-color: gold;
-	min-height: 200px;
-	width: 100%;
+	background-color: white;
+	font-size: 1.2rem;
+	height: 20vh;
+	width: 60vw;
+}
+
+.bottom > p > a {
+	text-decoration: none;
+	color: var(--color);
+	font-size: 1.2rem;
 }
 
 

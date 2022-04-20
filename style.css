@@ -101,11 +101,16 @@ html, body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 15px 0;
+	padding: 10px 0;
+}
+
+.temple {
+	color: #fff;
+
 }
 
 h1 {
-	font-size: 2rem;
+	font-size: 3rem;
 }
 
 span {
